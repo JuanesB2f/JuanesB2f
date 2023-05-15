@@ -1,17 +1,18 @@
-Ejercicio base
-#Proyecto promedio
+#Ejercicio base
 >author: Juan Esteban Fonseca Avila
 
 ##Enfoque
 Como empleado de una tienda de perfumes, asigna el desarrollo de una aplicación que calcule el promedio de ventas que se ha hecho durante las 4 semanas de el mes de febrero de un perfume en particular. La aplicación debe ser capaz de registrar el nombre del empleado, número de identificación, el nombre del perfume, y la cantidad de perfumes.
+
 ACLARACIONES:
-•	Se supondrá que la aplicación se necesita únicamente para calcular el promedio del mes de febrero.
-•	Para mantener la simplicidad del ejemplo, no se contemplará la persistencia de datos.
-•	 No se realizará validación ni se verificará la calidad de los datos ingresados.
-•	Se espera que el promedio del mes sea más de $2.000.000
-<br style ="height: xp;"></br
-###istoria de usuario
-[PDF] (Desktop/promediopdf.pdf)
++	Se supondrá que la aplicación se necesita únicamente para calcular el promedio del mes de febrero.
++	Para mantener la simplicidad del ejemplo, no se contemplará la persistencia de datos.
++	 No se realizará validación ni se verificará la calidad de los datos ingresados.
++	Se espera que el promedio del mes sea más de $2.000.000
+<br style="height:100px;"></br>
+
+##historia de usuario
+[PDF](/Desktop/promediopdf.pdf)
 
 ###Descripcion
 Como empelado y unico dueño de una perfumeria en la que cende (colonias AA de 100 ml), quiero poder allar
