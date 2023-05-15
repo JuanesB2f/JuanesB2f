@@ -12,7 +12,7 @@ ACLARACIONES:
 <br style="height:100px;"></br>
 
 ##historia de usuario
-[PDF](/Desktop/promediopdf.pdf)
+[PDF](Desktop/promediopdf.pdf)
 
 ###Descripcion
 Como empelado y unico dueño de una perfumeria en la que cende (colonias AA de 100 ml), quiero poder allar
