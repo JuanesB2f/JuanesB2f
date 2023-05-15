@@ -21,16 +21,16 @@ las ventas que se hizo durante 4 semanas para calcular el promedio del mes de Fe
 **Escenario [ 1 ]:**
 >Ingresar la informacion de los perfumes de la tienda
 
-+ **Given [**soy el dueño y empleado de una perdumeria **]**
+**Given [**soy el dueño y empleado de una perfumeria**]**
 
 + Ingreso de la cantidad de perfumes que se manejan 
 + Ingreso correctamente del nombre del empleado 
 + Ingreso correctamente del numero de identificacion del empleado 
 
 
-+**When [** seleccione la opcion calcular promedio**]**
+**When [**seleccione la opcion calcular promedio**]**
 
-+**Then [** Debo poder guardar la informacion del empleado:**]**
++**Then [**Debo poder guardar la informacion del empleado:**]**
 + Nombre completo
 + Numero de identidicacion
 + Cantidad de perfumes
@@ -39,9 +39,9 @@ las ventas que se hizo durante 4 semanas para calcular el promedio del mes de Fe
 + Valor total de la semana 3
 + Valor total de la semana 4
 
-+Promedio de las cuatro semanas 
++ Promedio de las cuatro semanas 
 
-+Obtener promedio Total de la cantidad de perfumes manejadas
++ Obtener promedio Total de la cantidad de perfumes manejadas
 
  ##Aproximacion de caso de uso 
  Nombre: Promedio venta mensual
