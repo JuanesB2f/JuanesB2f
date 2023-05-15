@@ -65,25 +65,26 @@ Postcondiciones: Promedio ventas.
 
 ```mermaid
 flowchart TD;
-    A([Inicio]) --> B["Entero: codigoProductos [50]<br>Caracter: nombreProductos [50]<br>Real: precioProductos [50]<br>Entero: codigoProducto, descuento <- 10, cantidadProductos<br>Caracter: nombreProducto<br>Real: precioProducto, total <- 0>"] --> C{{Digite la cantidad de productos}} --> D[/Leer cantidadProductos\] --> E[\"Para i <- 0 Hasta cantidadProductos-1 Hacer"/];
-    E --> F[\"Para i <- 0 Hasta cantidadProductos-1 Hacer"/];
-    F --> G1["total <- (precioProductos[i] * descuento) / 100"];
-    G1 --> F;
-    F --> H1{{"Escribir: Descuento:  + descuento + %<br>Escribir: Total a pagar: + total"}} --> I1([Fin]);
-    G["codigoProductos[i] <- codigoProductonombreProductos[i] <- nombreProductoprecioProductos[i] <- precioProducto"] --> E
-    E --> H{{Digite la identificacion del estudiante}} --> I[/leer: identificacion\] --> J{{Digite el nombre del estudiante}} --> K[/leer: nombre\] --> L[/Digite el curso del estudiante\] --> M{{leer: curso}} --> N[/Digita la nota 1 del estudiante\] --> O{{leer: notauno}} --> P[/Digite la nota 2 del estudiante\] --> Q{{leer: notados}} --> R[/Digite la nota 3 del estudiante\] --> S{{leer: notatres}};
-    S --> G;
-```
-        
+    A([Inicio]) --> B["Cadena: identificaciones [50]<br>Cadena: nombres [50]<br>Real: semanauno [50], semanados [50], semanatres [50], semanacuatro [50]<br>Entero: numeroPerfumes<br>Cadena: identificacion, nombre<br>Real: semana1, semana2, semana3, semana4, promedio <- 0"];
+    B --> C{{Digite el numero de perfumes segun el menu}} --> D[/Leer numeroPerfumes\] --> E[\"Para i <- 0 Hasta numeroPerfumes-1 Hacer"/];
+    E --> F{{Digite la identificacion del empleado}} --> G[/Leer identificacion\] --> H{{Digite el nombre del empleado}} --> I[/Leer nombre\] --> J{{Digite la venta de la semana uno del empleado}} --> K[/Leer semana1\] --> L{{Digite la venta de la semana dos del empleado}} --> M[/Leer semana2\] --> N{{Digite la venta de la semana tres del empleado}} --> O[/Leer semana3\] --> P{{Digite la venta de la semana cuatro del empleado}} --> Q[/Leer semana4\];
+    Q --> R["identificaciones[i] <- identificacion<br>nombres[i] <- nombre<br>semanauno[i] <- semana1<br>semanados[i] <- semana2<br>semanatres[i] <- semana3<br>semanacuatro[i] <- semana4"] --> E;
+    E --> S[\"Para i <- 0 Hasta numeroPerfumes-1 Hacer"/];
+    S --> T["promedio <- promedio + ((semanauno[i] + semanados[i] + semanatres[i] + semanacuatro[i]) / 4) / numeroPerfumes"] --> S;
+    S --> U{{Escribir: El promedio de ventas es: + promedio}} --> V([Fin]);
+  ```
+     
 </p>
 </details>
 
 <br style="height:100px;"></br>
-## seudocodigo   
-<details><sunnary>Desplegar</summary>
-<p>
-...
-Algoritmo promedio_ventas
+
+## Seudocodigo
+<details><summary>Desplegar</summary>
+ 
+```     
+   Algoritmo proyecto
+   Definir sc Como Nuevo Scanner
    Definir identificaciones como cadena[50]
    Definir nombres como cadena[50]
    Definir semanauno como real[50]
@@ -98,10 +99,8 @@ Algoritmo promedio_ventas
    Definir semana3 como real
    Definir semana4 como real
    Definir promedio como real
-   
    Escribir "Digite el numero de perfumes segun el menu: "
    Leer numeroPerfumes
-   
    Para i = 0 Hasta numeroPerfumes Con Paso 1 Hacer
       Escribir "Digite la identificacion del empleado: "
       Leer identificacion
@@ -115,23 +114,26 @@ Algoritmo promedio_ventas
       Leer semana3
       Escribir "Digite la venta de la semana cuatro del empleado: "
       Leer semana4
-      
       identificaciones[i] <- identificacion
       nombres[i] <- nombre
       semanauno[i] <- semana1
       semanados[i] <- semana2
       semanatres[i] <- semana3
       semanacuatro[i] <- semana4
-   FinPara
-   
+   FinPara  
    Para i = 0 Hasta numeroPerfumes Con Paso 1 Hacer
       promedio <- promedio + ((semanauno[i] + semanados[i] + semanatres[i] + semanacuatro[i]) / 4) / numeroPerfumes
    FinPara
-   
    Escribir "El promedio de ventas es: ", promedio
-   <p>
-   </details>
-...
+        Cerrar sc
+    Fin Algoritmo
+ ```
+     
+</details>
+
+<br style="height:100px;"></br>
+
+
 
 
 
