@@ -1,6 +1,6 @@
-# 👋 ¡Hola! Soy Juanes
+# 👋 ¡Hola! Soy Juan Fonseca
 
-💻 **Ingeniero de software*Ingeniero de Software ,con capacidades para desarrollar, diseñar y mantener sistemas de software optimizando los recursos en su desarrollo teniendo en cuenta las necesidades organizacionales. Con competencias laborales, compromiso, orientación al detalle, orientación al resultado enfocado al aprendizaje continuo, asumiendo retos con el fin de adquirir conocimientos que ayuden en mi crecimiento personal y profesional 
+💻 **Ingeniero de software* con capacidades para desarrollar, diseñar y mantener sistemas de software optimizando los recursos en su desarrollo teniendo en cuenta las necesidades organizacionales. Con competencias laborales, compromiso, orientación al detalle, orientación al resultado enfocado al aprendizaje continuo, asumiendo retos con el fin de adquirir conocimientos que ayuden en mi crecimiento personal y profesional 
 
 ---
 
