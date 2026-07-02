@@ -16,7 +16,7 @@
 
 <div align="center">
 
-"Todo va a salir bien",<br/>
+"Todo va a salir bien" <br/>
 
 </div>
 
