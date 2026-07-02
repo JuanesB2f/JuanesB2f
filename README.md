@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e3a8a,100:0f172a&height=130&section=header&text=Juan%20Esteban%20Fonseca&fontSize=28&fontColor=ffffff&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=60A5FA&center=true&vCenter=true&width=620&lines=Full+Stack+Developer Senior;IA+y+Automatizacion;De+dato+a+decision" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=60A5FA&center=true&vCenter=true&width=620&lines=Full+Stack+Developer Senior;IA+y+Automatizacion;De+dato+a+decision" />
 
 <br/>
 
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-| `( 3+ años de experiencia )` |
+| `( 4+ años de experiencia )` |
 | :---------------------------: |
 | <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vue,nuxt,tailwind,bootstrap,php,nodejs&perline=11" /> |
 
@@ -77,7 +77,7 @@
 
 <br/><br/>
 
-## 𝕵𝖚𝖆𝖓-𝕱𝕺𝕹𝕾𝕰𝕮𝕬
+## JuanesB2F
 
 *Ingeniero de Software · Bogotá, Colombia*
 
